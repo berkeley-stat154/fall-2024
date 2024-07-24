@@ -6,7 +6,7 @@ website:
   google-analytics: G-NGGRC8BY4V
   sidebar:
     style: docked
-    title: "Stat 154"
+    title: "Stat 154/254"
     logo: assets/stat_bear.png
     tools:
       - icon: github
@@ -18,13 +18,13 @@ website:
         text: Syllabus
       - href: staff.qmd
         text: Staff
-      - href: calendar.qmd
-        text: Calendar
-      - section: "Units"
-        contents:
-          - units/unit1.qmd
-          - units/unit2.ipynb
-          - units/unit3.qmd
+      # - href: calendar.qmd
+      #   text: Calendar
+      # - section: "Units"
+      #   contents:
+      #     - units/unit1.qmd
+      #     - units/unit2.ipynb
+      #     - units/unit3.qmd
       # - href: data.qmd
       #   text: Datasets
       - href: license.qmd

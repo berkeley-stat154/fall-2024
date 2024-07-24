@@ -2,7 +2,7 @@
 title: "Syllabus"
 ---
 
-See <a href="https://github.com/berkeley-stat154/fall-2024/syllabus.pdf" target='_blank'>Here</a> for full syllabus. 
+See <a href="https://github.com/berkeley-stat154/fall-2024/blob/main/syllabus.pdf" target='_blank'>Here</a> for full syllabus. 
 
 
 ### About Statistics 154/254
