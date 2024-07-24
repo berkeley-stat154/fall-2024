@@ -16,7 +16,8 @@ listing:
 [UNDER CONSTRUCTION]
 
 
-::: {.callout-note title="Welcome to Week 1 of Stat 154"}
+::: {.callout-note title="Welcome to Week 1 of Stat 154/254"}
+First class: Thursday, Aug 29, 2024.
 :::
 
 ::: {.callout-note title="Welcome to Week 2"}
