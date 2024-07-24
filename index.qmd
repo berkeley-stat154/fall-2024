@@ -1,5 +1,5 @@
 ---
-title: "Statistics 154: Modern Statistical Prediction and Machine Learning"
+title: "Statistics 154/254: Modern Statistical Prediction and Machine Learning"
 subtitle: "UC Berkeley, Fall 2024"
 listing:
   - id: schedule
