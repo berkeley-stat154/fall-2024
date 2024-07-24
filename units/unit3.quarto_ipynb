@@ -1,0 +1,74 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Unit 3: More\"\n",
+        "format:\n",
+        "  html:\n",
+        "    code-fold: show\n",
+        "    code-tools: true\n",
+        "    include-before-body:\n",
+        "     - file: macros.md\n",
+        "  pdf: \n",
+        "    include-before-body:\n",
+        "     - file: macros.tex\n",
+        "---\n",
+        "\n",
+        "\n",
+        "[UNDER CONSTRUCTION]\n",
+        "\n",
+        "This is an example of using qmd as the source document with pdf as one target. I've taken out the qmd stuff that doesn't seem to render to pdf.\n",
+        "\n",
+        "## Evaluated Python code chunk, with a plot\n"
+      ],
+      "id": "56faaf15"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import numpy as np\n",
+        "x = np.random.normal(size=100)\n",
+        "import matplotlib.pyplot as plt\n",
+        "plt.hist(x)\n",
+        "plt.show()\n",
+        "np.mean(x)"
+      ],
+      "id": "3a2e5b2f",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## LaTeX\n",
+        "\n",
+        "$$\n",
+        "\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n",
+        "$$\n",
+        "\n",
+        "## LaTeX macro\n",
+        "\n",
+        "> **Warning**: having `include-before-body` in the yaml header of this file, as seemingly needed to enable macros, causes extra space at top of page.\n",
+        "\n",
+        "$$\n",
+        "A = X \\trans Y\n",
+        "$$"
+      ],
+      "id": "afeee1e2"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
