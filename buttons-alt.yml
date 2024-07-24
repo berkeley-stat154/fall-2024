@@ -1,6 +1,9 @@
 - button: Ed
-  link: https://ibm.com
-- button: DataHub
-  link: https://ibm.com
+  link: https://edstem.org/us/courses/61329/discussion/
+  color: purple
+# - button: DataHub
+#   link: https://ibm.com
+#   color: green
 - button: Gradescope
-  link: https://ibm.com
+  link: https://www.gradescope.com/courses/811006
+  color: orange

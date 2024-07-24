@@ -10,14 +10,14 @@ Office hours are subject to change.
 ::: {.grid}
 
 ::: {.g-col-4}
-**Instructor:** <a href="https://statistics.berkeley.edu" target='_blank'>Song Mei</a><br>
+**Instructor:** <a href="https://www.stat.berkeley.edu/~songmei/" target='_blank'>Song Mei</a><br>
 `songmei@berkeley.edu`<br>
 Office hours: <br>
 - TBA, Evans 387<br>
 :::
 
 ::: {.g-col-4}
-**GSI**: <a href="http://statistics.berkeley.edu" target="_blank">Ruiqi Zhang</a><br>
+**GSI**: <a href="https://rqzhangberkeley.github.io/" target="_blank">Ruiqi Zhang</a><br>
 `rqzhang@berkeley.edu`<br>
 Office hours:<br>
 - TBA<br>

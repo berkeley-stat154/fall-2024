@@ -1,0 +1,306 @@
+\documentclass[11pt]{article}
+\usepackage{songmei}
+\usepackage[toc,page]{appendix}
+
+
+\def\cO{{\mathcal O}}
+\def\cP{{\mathcal P}}
+\def\cW{{\mathcal W}}
+\def\sW{{\mathsf W}}
+\def\bvphi{{\boldsymbol \vphi}}
+\def\W{{\mathbb W}}
+\def\ddiag{{\rm ddiag}}
+\def\bX{{\boldsymbol X}}
+\def\KR{{\rm KR}}
+\def\hba{{\hat {\boldsymbol a}}}
+\def\hf{{\hat f}}
+\def\sM{{\mathsf M}}
+\def\bbHe{{\rm He}}
+\def\tcT{\widetilde{\mathcal T}}
+\def\endd{{\rm end}}
+\def\bi{{\boldsymbol i}}
+\def\cT{{\mathcal T}}
+\def\cC{{\mathcal C}}
+\def\bj{{\boldsymbol j}}
+\def\cQ{{\mathcal Q}}
+\def\sk{{\rm sk}}
+\def\bk{{\boldsymbol k}}
+\def\T{{\mathbb T}}
+\def\K{{\mathbb K}}
+\def\H{{\mathbb H}}
+\def\cL{{\mathcal L}}
+
+\def\bw{{\boldsymbol w}}
+\def\de{{\rm d}}
+\def\bx{{\boldsymbol x}}
+\def\by{{\boldsymbol y}}
+\def\bW{{\boldsymbol W}}
+\def\ba{{\boldsymbol a}}
+\def\cF{{\mathcal F}}
+\def\Unif{{\sf Unif}}
+\def\normal{{\sf N}}
+\def\bU{{\boldsymbol U}}
+\def\bV{{\boldsymbol V}}
+\def\bM{{\boldsymbol M}}
+\def\bZ{{\boldsymbol Z}}
+
+\def\bz{{\boldsymbol z}}
+\def\proj{{\mathsf P}}
+\def\He{{\rm He}}
+\def\cE{{\mathcal E}}
+\def\tK{\widetilde{K}}
+
+\def\stest{\mbox{\tiny\rm test}}
+\def\bdelta{{\boldsymbol\delta}}
+\def\Trace{{\rm Tr}}
+
+\def\bbeta{{\boldsymbol \beta}}
+\def\bDelta{{\boldsymbol \Delta}}
+\def\bB{{\boldsymbol B}}
+
+\def\lin{{\rm lin}}
+\def\res{{\rm res}}
+\def\degzero{{\rm deg0}}
+\def\degone{{\rm deg1}}
+
+\def\be{{\boldsymbol e}}
+\def\bu{{\boldsymbol u}}
+\def\bg{{\boldsymbol g}}
+\def\Poly{{\rm Poly}}
+
+\def\ik{{\mathsf k}}
+\def\il{{\mathsf l}}
+
+\def\sM{{\sf M}}
+
+\def\bA{{\boldsymbol A}}
+\def\bD{{\boldsymbol D}}
+\def\bb{{\boldsymbol b}}
+\def\bv{{\boldsymbol v}}
+\def\bxi{{\boldsymbol \xi}}
+\def\btheta{{\boldsymbol \theta}}
+\def\bTheta{{\boldsymbol \Theta}}
+\def\Poly{{\rm Poly}}
+\def\Coeff{{\rm Coeff}}
+
+\def\bfone{{\boldsymbol 1}}
+
+\def\RKHS{{\sf RKHS}}
+\def\RF{{\sf RF}}
+\def\NT{{\sf NT}}
+\def\NN{{\sf NN}}
+\def\reals{{\mathbb R}}
+\def\integers{{\mathbb Z}}
+\def\naturals{{\mathbb N}}
+
+
+\def\bw{{\boldsymbol w}}
+\def\de{{\rm d}}
+\def\bx{{\boldsymbol x}}
+\def\by{{\boldsymbol y}}
+\def\bW{{\boldsymbol W}}
+\def\ba{{\boldsymbol a}}
+\def\cF{{\mathcal F}}
+\def\Unif{{\rm Unif}}
+\def\bU{{\boldsymbol U}}
+\def\bV{{\boldsymbol V}}
+\def\bz{{\boldsymbol z}}
+\def\proj{{\mathsf P}}
+\def\He{{\rm He}}
+\def\cE{{\mathcal E}}
+\def\bt{{\boldsymbol t}}
+\def\normal{{\sf N}}
+
+\def\bDelta{{\boldsymbol \Delta}}
+
+\def\lin{{\rm lin}}
+\def\res{{\rm res}}
+\def\degzero{{\rm deg0}}
+\def\degone{{\rm deg1}}
+
+\def\be{{\boldsymbol e}}
+\def\bu{{\boldsymbol u}}
+\def\bg{{\boldsymbol g}}
+\def\btheta{{\boldsymbol \theta}}
+\def\Poly{{\rm Poly}}
+\def\Coeff{{\rm Coeff}}
+\def\bh{{\boldsymbol h}}
+
+\def\RF{{\rm RF}}
+\def\NT{{\rm NT}}
+\def\bA{{\boldsymbol A}}
+\def\bH{{\boldsymbol H}}
+
+\def\cS{{\mathcal S}}
+\def\Cyc{{\rm Cyc}}
+\def\cI{{\mathcal I}}
+\def\RC{{\rm RC}}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={blue!80!black},
+    citecolor={green!50!black},
+}
+\colorlet{linkequation}{blue}
+
+
+\begin{document}
+
+
+
+\title{Syllabus of STAT154/254 \\
+(Modern Statistical Prediction and Machine Learning)}
+\date{}
+
+\maketitle
+
+\noindent
+{\bf Instructor: } Song Mei (songmei@berkeley.edu) \\
+\noindent
+{\bf Lectures: } T/Th 9:30 - 11:00. Location:  Etcheverry 3108. \\
+\noindent
+{\bf Instructor office hours: } Will announce on course homepage. \\
+\noindent
+{\bf GSI: } Ruiqi Zhang (rqzhang@berkeley.edu) \\
+\noindent
+{\bf Lab 101: } F 11:00 am - 12:59 pm. Location: Evans 334. \\
+\noindent
+{\bf Lab 102: } F 3:00 pm - 4:59 pm. Location: Evans 342. \\
+\noindent
+{\bf GSI office hours: } Will announce on course homepage.  \\
+
+
+
+\vskip2em
+
+\noindent
+{\bf \large Important websites}\\
+\noindent
+{\bf Course website (for general logistics): } \url{https://stat154.berkeley.edu/fall-2024/}\\
+\noindent
+{\bf bCourses (for potentially recordings): } \url{https://bcourses.berkeley.edu/courses/1536630/}\\
+\noindent
+{\bf Ed (for questions): } \url{https://edstem.org/us/courses/61329}\\
+\noindent
+{\bf Gradescope (for submitting homeworks): } \url{https://www.gradescope.com/courses/811006}. Entry code: YRD5EG. 
+
+\vskip2em
+
+\noindent
+{\bf \large Course introduction}\\
+This course will focus on statistical learning methods and data analysis skills. Upon completing this course, the students are expected to be able to 1) build baseline models for real world data analysis problems; 2) implement models using programming languages; 3) draw conclusions from models. 
+
+
+\vskip2em
+
+\noindent
+{\bf \large Topics}\\
+\noindent {\bf Basic topics:} \\
+Tasks: Regression. Classification. Dimension reduction. Clustering. \\
+Algorithms: Solving linear systems. Gradient descent. Newton’s method. Power iteration for eigenvalue problems. EM algorithms. \\
+Others: Kernel methods. Regularization. Sample splitting. Resampling methods. Cross validation. \\
+\noindent {\bf Advanced topics:} \\
+Statistical learning theory and optimization theory.\\
+Bagging and Boosting. Tree based models. Neural networks. Bayesian models.\\
+Online learning. Bandit problems.\\
+
+
+\vskip4em
+
+\noindent
+{\bf \large Textbooks}\\
+\noindent
+An Introduction to Statistical Learning. Elements of Statistical Learning. (free pdf online)
+
+
+\vskip2em
+
+\noindent
+{\bf \large Other references}\\
+\noindent
+\noindent
+{Stanford CS229 lecture notes: }\url{http://cs229.stanford.edu/syllabus-fall2020.html}\\
+{Berkeley CS189/289 lecture notes: } \url{https://people.eecs.berkeley.edu/~jrs/189/}\\
+
+
+
+\vskip2em
+
+\noindent
+{\bf \large Prerequisite}\\
+\noindent
+MATH 53 and 54 or equivalents; MATH 110 is highly recommended. STAT 135 or equivalent (DATA/STAT C100 *and* (STAT 134 *or* DATA/STAT C140) will be accepted). STAT 133 preferred. STAT 151A is recommended. Scripting language required and R experience recommended. 
+\vskip2em
+
+\noindent
+{\bf \large Homework/Grading}\\
+\noindent
+$\bullet$ Class attendance is required. \\
+$\bullet$ There will be 6-7 homeworks. \\
+$\bullet$ In class mid-term. Date TBA. \\
+$\bullet$ Final exam date: Dec 17, 3 - 6 pm. \\
+$\bullet$ Final grade will be Homework $\times$ 40 \% + mid-term $\times$ 25 \% + final $\times$ 35 \%.
+%$\bullet$ There will be four problem sets. \\
+%$\bullet$ No mid/final exam. \\
+%$\bullet$ Course project: literature review / original research. \\
+%$\bullet$ Final score will be  $\max\{$assignment $\times 50 \%$ + course project $\times 50 \%$, course project$\}$.  
+
+%$\bullet$ Class attendance is required. Each enrolled student is expected to scribe the notes for at least one lecture, which is due in one week from the lecture. LaTeX template is available online.\\
+%$\bullet$ There will be four problem sets.\\
+%$\bullet$ No mid/final exam.\\
+%$\bullet$ Course project: literature review or original research.\\
+%$\bullet$ For pass/no pass students, project is optional (but encouraged).\\ 
+%$\bullet$ Final score will be  $\max\{$assignment $\times 50 \%$ + course project $\times 50 \%$, course project$\}$.  
+
+\vskip2em
+
+
+%\noindent
+%{\bf \large Project logistics}\\
+%\noindent
+%\url{https://www.stat.berkeley.edu/~songmei/Teaching/STAT260_Spring2021/project.pdf}
+%
+%\vskip2em
+
+\noindent
+{\bf \large Code of conduct; attribution of work}\\
+\noindent
+The high academic standard at the University of California, Berkeley, is reflected in each degree awarded. Every student is expected to maintain this high standard by ensuring that all academic work reflects unique ideas or properly attributes the ideas to the original sources.
+
+These are some basic expectations of students with regards to academic integrity: Any work submitted should be your own individual thoughts, and should not have been submitted for credit in another course unless you have prior written permission to re-use it in this course from this instructor.
+
+All assignments must use “proper attribution,” meaning that you have identified the original source and extent or words or ideas that you reproduce or use in your assignment. This includes drafts and homework assignments! If you are unclear about expectations, ask your instructor.
+
+Do not collaborate or work with other students on assignments or projects unless the instructor gives you permission or instruction to do so.
+
+\vskip2em
+
+\noindent
+{\bf \large Disability accommodations}\\
+\noindent
+If you need an accommodation for a disability, if you have information your wish to share with the instructor about a medical emergency, or if you need special arrangements if the building needs to be evacuated, please inform the instructor as soon as possible.
+
+If you are not currently listed with DSP (the Disabled Students’ Program) and believe you might benefit from their support, please apply online at \url{https://dsp.berkeley.edu/}.
+
+
+
+
+%
+%\vskip2em
+%
+%\noindent
+%{\bf \large References} \\
+%
+%\noindent
+%$\bullet$ Andrea Montanari's summer course. \url{https://www.math.ubc.ca/Links/OOPS/index.php} \\
+%$\bullet$ A quick introduction to concentration inequalities: Chapter 2 of ``High-dimensional statistics: A non-asymptotic viewpoint'' by Martin Wainwright \\
+%$\bullet$ A quick introduction to the replica trick: \url{https://meisong541.github.io/jekyll/update/2019/08/04/Replica_method_1.html}\\
+%$\bullet$ A quick introduction to convex Gaussian comparison inequality: ``Regularized linear regression: A precise analysis of the estimation error'' by Christos Thrampoulidis, Samet Oymak, and Babak Hassibi: \url{http://proceedings.mlr.press/v40/Thrampoulidis15.pdf} \\
+%$\bullet$ A quick introduction to AMP: ``Graphical Models Concepts in Compressed Sensing'' by Andrea Montanari: \url{https://arxiv.org/abs/1011.4328}  \\
+%$\bullet$ Advanced reading: ``Information, Physics, and Computation'' by Marc Mézard and Andrea Montanari: \url{https://web.stanford.edu/~montanar/RESEARCH/book.html}
+%
+%
+
+
+\end{document}
