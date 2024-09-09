@@ -17,7 +17,7 @@ listing:
 ## Description
 <ul>
 <li> Instructor: Song Mei (songmei [at] berkeley.edu) </li>
-<li> Lectures: Tuesday/Thursday 9:30-11:00. Etcheverry 3108. </li>
+<li> Lectures: Tuesday/Thursday 9:30 am - 11:00 am. Etcheverry 3108. </li>
 <li> Office Hours: Tuesday 1 pm - 3 pm. Evans 387. </li>
 <li> GSI: Ruiqi Zhang (rqzhang [at] berkeley.edu) </li>
 <li> Lab sessions Friday  11:00 am - 12:59 pm, Evans 334; 3:00 pm - 4:59 pm, Evans 342. </li>
@@ -42,8 +42,8 @@ This course will focus on statistical/machine learning methods, data analysis/pr
 <ul>
 <li> Class attendance is required.</li>
 <li> Homework per two weeks. There will be 6-7 HWs.</li>
-<li> In class mid-term: TBA.</li>
-<li> Final exam date: Dec 17. </li>
+<li> In class mid-term: Oct 24. Logistics: https://docs.google.com/document/d/1VfW1isSq68IwW8TQnZF_3o_SxJ0Yy0sDzI8QVeaSSSw/edit?usp=sharing</li>
+<li> Final exam date: Dec 17. Logistics: https://docs.google.com/document/d/1VfW1isSq68IwW8TQnZF_3o_SxJ0Yy0sDzI8QVeaSSSw/edit?usp=sharing</li>
 <li> Final grade will be Homework × 40 % + mid-term × 25 % + final × 35 %.</li>
 <li> HW policy: There are in total three late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.</li>
 </ul> 

@@ -5,7 +5,9 @@
         - type: "Lecture"
           id: "1"
           name: Introduction
-        
+
+- week: 2
+  days:  
     - date: "Sep 3"
       items:
         - type: "Lecture"
@@ -17,7 +19,9 @@
         - type: "Lecture"
           id: "3"
           name: Hypothesis testing in linear models (I)
-    
+
+- week: 3
+  days:  
     - date: "Sep 10"
       items:
         - type: "Lecture"
