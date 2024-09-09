@@ -5,6 +5,24 @@
         - type: "Lecture"
           id: "1"
           name: Introduction
+        
+    - date: "Sep 3"
+      items:
+        - type: "Lecture"
+          id: "2"
+          name: Linear model and linear regression
+    
+    - date: "Sep 5"
+      items:
+        - type: "Lecture"
+          id: "3"
+          name: Hypothesis testing in linear models (I)
+    
+    - date: "Sep 10"
+      items:
+        - type: "Lecture"
+          id: "4"
+          name: Hypothesis testing in linear models (II)
           # href: "./units/unit1.html"
           # auxil:
           #   - id: "Note 1"
