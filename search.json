@@ -52,7 +52,7 @@
     "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 3: More",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.0060428161379940505)"
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n-0.11052447816931714"
   },
   {
     "objectID": "units/unit3.html#latex",
@@ -90,7 +90,7 @@
     "href": "index.html#description",
     "title": "Statistics 154/254: Modern Statistical Prediction and Machine Learning",
     "section": "Description",
-    "text": "Description\n\n\nInstructor: Song Mei (songmei [at] berkeley.edu)\n\n\nLectures: Tuesday/Thursday 9:30-11:00. Etcheverry 3108.\n\n\nOffice Hours: TBA. Evans 387.\n\n\nGSI: Ruiqi Zhang (rqzhang [at] berkeley.edu)\n\n\nLab sessions Friday 11:00 am - 12:59 pm, Evans 334; 3:00 pm - 4:59 pm, Evans 342.\n\n\nOffice Hours: TBA.\n\n\nThis course will focus on statistical/machine learning methods, data analysis/programming skills. Upon completing this course, the students are expected to be able to 1) build baseline models for real world data analysis problems; 2) implement models using programming languages; 3) draw insights/conclusions from models.",
+    "text": "Description\n\n\nInstructor: Song Mei (songmei [at] berkeley.edu)\n\n\nLectures: Tuesday/Thursday 9:30 am - 11:00 am. Etcheverry 3108.\n\n\nOffice Hours: Tuesday 1 pm - 3 pm. Evans 387.\n\n\nGSI: Ruiqi Zhang (rqzhang [at] berkeley.edu)\n\n\nLab sessions Friday 11:00 am - 12:59 pm, Evans 334; 3:00 pm - 4:59 pm, Evans 342.\n\n\nOffice Hours: Thursday 4 pm - 6 pm; Friday 1 pm - 3 pm. Evans 428.\n\n\nThis course will focus on statistical/machine learning methods, data analysis/programming skills. Upon completing this course, the students are expected to be able to 1) build baseline models for real world data analysis problems; 2) implement models using programming languages; 3) draw insights/conclusions from models.",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -100,7 +100,7 @@
     "href": "index.html#announcement",
     "title": "Statistics 154/254: Modern Statistical Prediction and Machine Learning",
     "section": "Announcement",
-    "text": "Announcement\n\n\nFirst class: Aug 29, 2024 (Thursday).\n\n\nFor students who filled in the enrollment appeal forms and concurrent enrollment students: I will process all the petitions on Aug 30. Please come to the first few lectures and decide whether you will take this course.\n\n\nWe will use Ed for discussions and questions.\n\n\nPlease find homework and lecture notes on bCourse under “Files”.\n\n\nHW policy: There are in total 3 late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.\n\n\nThe lectures will be recorded through Course Capture. The recordings can be found on bCourse under “Media Gallery”.",
+    "text": "Announcement\n\n\nFirst class: Aug 29, 2024 (Thursday).\n\n\nI will process the CE students during the week of Sep 9. I will prioritize CE students performing well in HW1.\n\n\nWe will use Ed (https://edstem.org/us/courses/61329) for discussions and questions.\n\n\nPlease submit HW using Gradescope (https://www.gradescope.com/courses/811006, code: YRD5EG).\n\n\nPlease find homework and lecture notes on bCourse under “Files”.\n\n\nHW policy: There are in total 3 late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.\n\n\nThe lectures will be recorded through Course Capture. The recordings can be found on bCourse under “Media Gallery”.",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -110,7 +110,7 @@
     "href": "index.html#grading",
     "title": "Statistics 154/254: Modern Statistical Prediction and Machine Learning",
     "section": "Grading",
-    "text": "Grading\n\n\nClass attendance is required.\n\n\nHomework per two weeks. There will be 6-7 HWs.\n\n\nIn class mid-term: TBA.\n\n\nFinal exam date: Dec 17.\n\n\nFinal grade will be Homework × 40 % + mid-term × 25 % + final × 35 %.\n\n\nHW policy: There are in total three late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.",
+    "text": "Grading\n\n\nClass attendance is required.\n\n\nHomework per two weeks. There will be 6-7 HWs.\n\n\nIn class mid-term: Oct 24. Logistics: https://docs.google.com/document/d/1VfW1isSq68IwW8TQnZF_3o_SxJ0Yy0sDzI8QVeaSSSw/edit?usp=sharing\n\n\nFinal exam date: Dec 17. Logistics: https://docs.google.com/document/d/1VfW1isSq68IwW8TQnZF_3o_SxJ0Yy0sDzI8QVeaSSSw/edit?usp=sharing\n\n\nFinal grade will be Homework × 40 % + mid-term × 25 % + final × 35 %.\n\n\nHW policy: There are in total three late days that you can use without penalty towards grade throughout the semester. After that, there will be a 10% deduction on grades of a HW for each late day. The least grade can be dropped counting towards total grades.",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -130,7 +130,7 @@
     "href": "index.html#schedule",
     "title": "Statistics 154/254: Modern Statistical Prediction and Machine Learning",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n   Week 1\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           Aug 29:\n           \n           Lecture 1 Introduction\n           \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n\nNo matching items",
+    "text": "Schedule\n\n\n\n   Week 1\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           Aug 29:\n           \n           Lecture 1 Introduction\n           \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n   Week 2\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           Sep 3:\n           \n           Lecture 2 Linear model and linear regression\n           \n                \n           \n                \n           \n        \n   \n\n        \n\n           \n           \n           Sep 5:\n           \n           Lecture 3 Hypothesis testing in linear models (I)\n           \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n   Week 3\n\n   \n   \n   \n   \n   \n   \n\n        \n\n           \n           \n           Sep 10:\n           \n           Lecture 4 Hypothesis testing in linear models (II)\n           \n                \n           \n                \n           \n        \n   \n   \n   \n  \n\n\nNo matching items",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -175,7 +175,7 @@
     "href": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 1: Intro",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.058891390059341464)"
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\n0.09112956036995609"
   },
   {
     "objectID": "units/unit1.html#latex",
