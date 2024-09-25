@@ -27,6 +27,85 @@
         - type: "Lecture"
           id: "4"
           name: Hypothesis testing in linear models (II)
+    - date: "Sep 12"
+      items:
+        - type: "Lecture"
+          id: "5"
+          name: Computational aspects of linear regression; Logistic regression
+
+- week: 4
+  days:  
+    - date: "Sep 17"
+      items:
+        - type: "Lecture"
+          id: "6"
+          name: Logistic regression; Generative modeling approach for classification
+    - date: "Sep 19"
+      items:
+        - type: "Lecture"
+          id: "7"
+          name: Generative modeling approach for classification; Support vector machine
+
+- week: 5
+  days:  
+    - date: "Sep 24"
+      items:
+        - type: "Lecture"
+          id: "8"
+          name: Estimation of test error and model selection
+    - date: "Sep 26"
+      items:
+        - type: "Zoom Lecture"
+          id: "9"
+          name: Regularization
+
+- week: 5
+  days:  
+    - date: "Oct 1"
+      items:
+        - type: "No Lecture"
+    - date: "Sep 26"
+      items:
+        - type: "Zoom Lecture"
+          id: "10"
+          name: TBA
+
+- week: 6
+  days:  
+    - date: "Oct 8"
+      items:
+        - type: "Zoom Lecture"
+          id: "11"
+          name: TBA
+    - date: "Oct 10"
+      items:
+        - type: "Lecture"
+          id: "12"
+          name: TBA
+
+- week: 7
+  days:  
+    - date: "Oct 15"
+      items:
+        - type: "Zoom Lecture"
+          id: "13"
+          name: TBA
+    - date: "Oct 17"
+      items:
+        - type: "Lecture"
+          id: "14"
+          name: TBA
+
+- week: 8
+  days:  
+    - date: "Oct 22"
+      items:
+        - type: "Zoom Lecture"
+          id: "15"
+          name: TBA
+    - date: "Oct 24"
+      items:
+        - type: "In class midterm"
           # href: "./units/unit1.html"
           # auxil:
           #   - id: "Note 1"
