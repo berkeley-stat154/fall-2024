@@ -55,57 +55,131 @@
           name: Estimation of test error and model selection
     - date: "Sep 26"
       items:
-        - type: "Zoom Lecture"
+        - type: "Lecture"
           id: "9"
-          name: Regularization
+          name: Zoom Lecture; Regularization
 
 - week: 5
   days:  
     - date: "Oct 1"
       items:
-        - type: "No Lecture"
+        - name: No Lecture
     - date: "Sep 26"
       items:
-        - type: "Zoom Lecture"
+        - type: "Lecture"
           id: "10"
-          name: TBA
+          name: Zoom lecture; Bayes expansion and feature map
 
 - week: 6
   days:  
     - date: "Oct 8"
       items:
-        - type: "Zoom Lecture"
+        - type: "Lecture"
           id: "11"
-          name: TBA
+          name: Zoom lecture; Kernel ridge regression
     - date: "Oct 10"
       items:
         - type: "Lecture"
           id: "12"
-          name: TBA
+          name: Kernel machine
 
 - week: 7
   days:  
     - date: "Oct 15"
       items:
-        - type: "Zoom Lecture"
+        - type: "Lecture"
           id: "13"
-          name: TBA
+          name: Bootstrap method
     - date: "Oct 17"
       items:
         - type: "Lecture"
           id: "14"
-          name: TBA
+          name: PCA I
 
 - week: 8
   days:  
     - date: "Oct 22"
       items:
-        - type: "Zoom Lecture"
+        - type: "Lecture"
           id: "15"
-          name: TBA
+          name: PCA II
     - date: "Oct 24"
       items:
-        - type: "In class midterm"
+        - name: "In class midterm"
+
+- week: 9
+  days:  
+    - date: "Oct 29"
+      items:
+        - type: "Lecture"
+          id: "16"
+          name: Clustering I
+    - date: "Oct 31"
+      items:
+      - type: "Lecture"
+          id: "17"
+          name: Clustering II
+
+- week: 10
+  days:  
+    - date: "Nov 5"
+      items:
+        - name: No lecture
+    - date: "Nov 7"
+      items:
+      - type: "Lecture"
+          id: "18"
+          name: Decision tree
+
+- week: 11
+  days:  
+    - date: "Nov 12"
+      items:
+        - type: "Lecture"
+          id: "19"
+          name: Emsembling method
+    - date: "Nov 14"
+      items:
+      - type: "Lecture"
+          id: "20"
+          name: Basics of statistical learning theory
+
+- week: 12
+  days:  
+    - date: "Nov 19"
+      items:
+        - type: "Lecture"
+          id: "21"
+          name: Neural networks, deep learning
+    - date: "Nov 21"
+      items:
+      - type: "Lecture"
+          id: "22"
+          name: Backpropagation
+
+- week: 13
+  days:  
+    - date: "Nov 26"
+      items:
+        - type: "Lecture"
+          id: "23"
+          name: Deep learning theory I
+    - date: "Nov 28"
+      items:
+      - name: no lecture
+
+- week: 12
+  days:  
+    - date: "Dec 3"
+      items:
+        - type: "Lecture"
+          id: "24"
+          name: Deep learning theory II
+    - date: "Dec 5"
+      items:
+      - type: "Lecture"
+          id: "25"
+          name: Deep learning theory III
           # href: "./units/unit1.html"
           # auxil:
           #   - id: "Note 1"
