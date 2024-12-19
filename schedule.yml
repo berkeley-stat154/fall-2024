@@ -116,7 +116,7 @@
           name: Clustering I
     - date: "Oct 31"
       items:
-      - type: "Lecture"
+        - type: "Lecture"
           id: "17"
           name: Clustering II
 
@@ -127,7 +127,7 @@
         - name: No lecture
     - date: "Nov 7"
       items:
-      - type: "Lecture"
+        - type: "Lecture"
           id: "18"
           name: Decision tree
 
@@ -140,7 +140,7 @@
           name: Emsembling method
     - date: "Nov 14"
       items:
-      - type: "Lecture"
+        - type: "Lecture"
           id: "20"
           name: Basics of statistical learning theory
 
@@ -153,7 +153,7 @@
           name: Neural networks, deep learning
     - date: "Nov 21"
       items:
-      - type: "Lecture"
+        - type: "Lecture"
           id: "22"
           name: Backpropagation
 
@@ -166,9 +166,9 @@
           name: Deep learning theory I
     - date: "Nov 28"
       items:
-      - name: no lecture
+        - name: no lecture
 
-- week: 12
+- week: 14
   days:  
     - date: "Dec 3"
       items:
@@ -177,7 +177,7 @@
           name: Deep learning theory II
     - date: "Dec 5"
       items:
-      - type: "Lecture"
+        - type: "Lecture"
           id: "25"
           name: Deep learning theory III
           # href: "./units/unit1.html"
